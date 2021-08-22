@@ -233,18 +233,31 @@ html,body
 }
 
 /********HEBERGEMENT*********/
+.textGras2
+{
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.titreH2
+{
+ margin-left: 40px;
+ margin-top: 40px;
+ padding-bottom: 20px;
+}
 .sizeHebergements
 {
   flex: 2;
-  height: 650px;
+  height: 700px;
   margin-right: 20px;
   border-radius: 10px;
+ 
 }
 
 .sizePopulaires
 {
   flex: 1;
-  height: 650px;
+  height: 700px;
   margin-left: 20px;
   border-radius: 10px;
 }
@@ -255,11 +268,12 @@ html,body
 }
 .bloc1
 {
-  margin-bottom: 10px;
+  margin-top: -30px;
 }
 .bloc2
 {
-  margin-bottom: 10px;
+  margin-top: -10px;
+  
 }
 .cubeHebergements
 {
@@ -336,6 +350,11 @@ html,body
 }
 
 /*****POPULAIRE****/
+.textGras3
+{
+  font-weight: bold;
+  margin-top: 30px;
+}
 .blocPopulaires
 {
   padding-left: 20px;
@@ -703,6 +722,12 @@ html,body
  }
  .divLienFoot {
    height: auto;
+ }
+ .margeBlocFoot3 {
+   padding-right: none;
+ }
+ .margLogo {
+   margin: 5px;
  }
  html,body {
   margin: 0;
