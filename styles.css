@@ -170,16 +170,20 @@ html,body
 
   /*******Filtre******/
 
+  .filterText 
+  {
+    font-weight: bold;
+  }
   .filter
   {
     display: flex;
     justify-content: left;
-    
   }
   .margFilter
   {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 40px
+    
   }
 
   .margFilterTitle
@@ -236,13 +240,13 @@ html,body
 .textGras2
 {
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   margin-left: 50px;
 }
 .titreH2
 {
  margin-left: 40px;
- margin-top: 40px;
+ margin-top: 20px;
  padding-bottom: 20px;
 }
 .sizeHebergements
@@ -300,7 +304,7 @@ html,body
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 120px;
+  height: 100px;
   border-radius: 15px 15px 0 0;
 }
 .imgHebergements2
@@ -350,10 +354,9 @@ html,body
 }
 
 /*****POPULAIRE****/
-.textGras3
+.textGras3 
 {
   font-weight: bold;
-  margin-top: 30px;
 }
 .blocPopulaires
 {
@@ -468,7 +471,7 @@ html,body
   background-position: center;
   width: 100%;
   height: 530px;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px 15px 0 0;
 }
 .imageActivites2
 {
@@ -477,7 +480,7 @@ html,body
   background-position: center;
   width: 100%;
   height: 250px;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px 15px 0 0;
 }
 .imageActivites3
 {
@@ -486,7 +489,7 @@ html,body
   background-position: center;
   width: 100%;
   height: 150px;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px 15px 0 0;
 }
 .imageActivites4
 {
@@ -495,7 +498,7 @@ html,body
   background-position: center;
   width: 100%;
   height: 530px;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px 15px 0 0;
 }
 .imageActivites5
 {
@@ -504,7 +507,7 @@ html,body
   background-position: center;
   width: 100%;
   height: 200px;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px 15px 0 0;
 }
 .imageActivites6
 {
@@ -513,7 +516,7 @@ html,body
   background-position: center;
   width: 100%;
   height: 200px;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px 15px 0 0;
 }
 /****FOOTER*****/
 .footer
@@ -665,9 +668,9 @@ html,body
     flex-direction: row;
     flex-wrap: wrap;
  } 
- .sizeLiensMobile:hover {
+ .sizeLienMobile:hover {
   border-top: 0;
-  border-bottom: 5px solid #0065fc;
+  border-bottom: 2px solid #0065fc;
  }
  .mobileTitreh1 {
    font-size: x-large;
@@ -692,7 +695,10 @@ html,body
    display: none;
  }
  .margFilter {
-   padding-left: 5px;
+   padding-left: 10px;
+ }
+ .margFilterTitle {
+   padding-left: 10px;
  }
  .mobileEconomique {
   margin-right: 5px;
@@ -706,12 +712,18 @@ html,body
  }
  .info {
    padding-left: 5%;
+   margin-top: -30px;
  }
+ 
  .blocPopulaires {
    border-radius: 0;
  }
  .blocHebergement {
    background-color: white;
+ }
+ .cubeHebergements {
+   margin-top: -20px;
+  
  }
  .mobileTitrePara {
    padding-left: 5%;
@@ -724,7 +736,7 @@ html,body
    height: auto;
  }
  .margeBlocFoot3 {
-   padding-right: none;
+   padding-right: 0;
  }
  .margLogo {
    margin: 5px;
@@ -733,5 +745,43 @@ html,body
   margin: 0;
   padding: 0;
  }
-}
+ .sizeHebergements {
+   margin-top: 20px;
+ }
 
+.titreH2 {
+  margin: auto;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  
+  }
+  .sizePopulaires {
+    height: 630px;
+  }
+  .textGras1 {
+   font-size: 25px;
+  }
+  .textGras2 {
+   margin-left: 0;
+   margin-top: -20px;
+  }
+  .blocActivites2356 {
+    height: 650px;
+  }
+  
+  .Activites {
+    margin: -50px 0;
+  }
+  
+  .margeBlocFoot3 {
+  padding-right: 0;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+  .bloc1 ,
+  .bloc2 {
+    margin-top: auto;    
+  }
+ }
+ 
